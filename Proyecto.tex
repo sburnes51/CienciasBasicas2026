@@ -124,21 +124,104 @@ Daniel Rodríguez Burnes & Ingeniero & cvu & Universidad Autónoma de Zacatecas 
 Rubén Alejandro Gutiérrez Carrillo & Estudiante de biomédica & cvu & Universidad Autónoma de Zacatecas \\
 Miguel Ángel González Almanza & Estudiante de computación & cvu & Universidad Autónoma de Zacatecas \\
 María Fernanda Arteaga Rodríguez & Estudiante de biomédica & cvu & Universidad Autónoma de Zacatecas \\
+Fabricio Becerra Quezada & Estudiante de Computación & cvu & Tecnológico Nacional de México Instituto Tecnológico de León \\
+Ariadne Lizett Macías Campos & Estudiante de Computación & cvu & Tecnológico Nacional de México Instituto Tecnológico de León \\
+Jeshua Isaac Rocha Sainez & Estudiante de Computación & cvu & Tecnológico Nacional de México Instituto Tecnológico de León \\
+
 \bottomrule
 \end{longtable}
 %----------------------------------------
 \section{Introducción, objetivos, metodología y plan de trabajo}
 
 \subsection{Antecedentes}
-El desarrollo de prótesis mamarias externas se sitúa en la intersección de la biomecánica, la ingeniería biomédica, mastología y la rehabilitación física. Los últimos cinco años muestran una clara tendencia hacia la personalización, la optimización del confort y la reducción de efectos secundarios asociados al uso prolongado, como dolor musculoesquelético y alteraciones posturales \cite{ACS2023,WHO2021}. Estudios recientes reportan que las prótesis que se realizan con métodos clásicos, pueden generar compensaciones posturales, sobrecarga en la región cervical y dorsal, así como alteraciones en la marcha \cite{Koralewska2022}. En respuesta a ello, la investigación reciente se ha enfocado en el desarrollo de prótesis más ligeras mediante siliconas de baja densidad, geles avanzados y estructuras internas que redistribuyen el peso de manera más eficiente. Actualmente existen opciones según las necesidades de cada persona, tamaño, forma, peso, color, material, textura, con o sin pezón, con o sin areola, autoadhesivas, como diseños para practicar diferentes deportes \cite{Liang2015} faltan estas citas (fitch2012perspectives,livingston2005women). Una de las principales innovaciones corresponde a la incorporación de tecnologías de digitalización, como el escaneo tridimensional y la impresión 3D, que permiten fabricar prótesis personalizadas. Estas tecnologías facilitan la reproducción precisa de la anatomía de la paciente, mejorando tanto la simetría como la adaptación al contorno corporal, lo cual impacta positivamente en la postura y en la percepción de la imagen corporal \cite{Singh2020,Tan2023}. 
+El desarrollo de prótesis mamarias externas se sitúa en la intersección de la biomecánica, 
+la ingeniería biomédica, mastología y la rehabilitación física. Los últimos cinco años muestran 
+una clara tendencia hacia la personalización, la optimización del confort y la reducción de efectos
+secundarios asociados al uso prolongado, como dolor musculoesquelético y alteraciones 
+posturales \cite{ACS2023,WHO2021,surmeli2025postural,Hojan2016}. Estudios recientes reportan que las prótesis que se realizan 
+con métodos clásicos, pueden generar compensaciones posturales, sobrecarga en la región cervical 
+y dorsal, así como alteraciones en la marcha \cite{Koralewska2022}. En respuesta a ello, 
+la investigación reciente se ha enfocado en el desarrollo de prótesis más ligeras mediante 
+siliconas de baja densidad, geles avanzados y estructuras internas que redistribuyen el peso 
+de manera más eficiente. Actualmente existen opciones según las necesidades de cada persona, 
+tamaño, forma, peso, color, material, textura, con o sin pezón, con o sin areola, autoadhesivas, 
+como diseños para practicar diferentes deportes \cite{crompvoets2012prosthetic,fitch2012perspectives,livingston2005women}. \\
 
-En cuanto al diseño, las prótesis integran superficies más transpirables, materiales hipoalergénicos y sistemas de adhesión mejorados que favorecen su fijación directa a la piel, reduciendo la dependencia de prendas especializadas \cite{WHO2021}. También se han desarrollado prótesis parciales y modulares que permiten ajustes progresivos según las necesidades de cada paciente. El estado del arte también destaca un cambio en el enfoque clínico: ya no se prioriza únicamente la estética, sino un abordaje integral centrado en la calidad de vida. Esto incluye la evaluación del impacto en la postura, el equilibrio corporal y la prevención de dolor, así como el acompañamiento en procesos de adaptación física y emocional tras una mastectomía \cite{McNeely2021,Hojan2016}. En conjunto, los avances recientes evidencian una transición hacia prótesis mamarias más funcionales, personalizadas y orientadas al bienestar integral, integrando principios biomecánicos y tecnológicos para mejorar la experiencia de uso y reducir las complicaciones asociadas.
+Una de las principales innovaciones corresponde a la incorporación de tecnologías de digitalización, 
+como el escaneo tridimensional y la impresión 3D, que permiten fabricar prótesis personalizadas. 
+Estas tecnologías facilitan 
+la reproducción precisa de la anatomía de la paciente, mejorando tanto la simetría como la 
+adaptación al contorno corporal, lo cual impacta positivamente en la postura y en la percepción 
+de la imagen corporal \cite{eggbeer2011computer,paxton2022capturing}. 
 
-En este contexto de creciente personalización, la perfilometría óptica tridimensional se ha consolidado como la tecnología de referencia para la captura de la morfología torácica [citas]. Estos sistemas obtiene nubes de puntos alta resolución que reproducen fielmente la topografía de la pared costal y el contorno de la mama contralateral sana, sirviendo como modelo base para el diseño. Sin embargo, el estado del arte revela que el verdadero potencial de estas tecnologías comienza a desbloquearse con la incorporación de la IA. Durante la fase de captura, proponemos algoritmos de IA para aumentar la precisión y reducción de ruido en la estimación de la fase, filtrado de interferograma y calibración. Así mismo corregir automáticamente artefactos generados por el movimiento o la respiración, segmentar de manera autónoma el área torácica de interés y, crucialmente, reconstruir superficies incompletas mediante técnicas de aprendizaje profundo que predicen la morfología esperada de la región afectada por la mastectomía, tomando como referencia la topografía de la zona contralateral sana. Esta capacidad de "completitud inteligente" de los datos de entrada garantiza que el diseño parta de una base geométrica mucho más precisa y fiable, reduciendo la subjetividad en la fase de modelado manual. Paralelamente, en la fabricación de la prótesis, la IA también está irrumpiendo en la optimización de la impresión 3D. Mediante el uso de algoritmos de optimización topológica y aprendizaje por refuerzo, es posible calcular automáticamente estructuras internas (infill) que maximizan la ligereza y la transpirabilidad sin comprometer la resistencia mecánica, atendiendo directamente a la necesidad de reducir la sobrecarga postural . Además, la IA puede predecir y compensar deformaciones térmicas durante la impresión, ajustando parámetros en tiempo real para garantizar que la prótesis final se corresponda exactamente con el diseño digital. De este modo, la integración de la inteligencia artificial en los procesos de captura e impresión 3D no solo automatiza tareas, sino que introduce un salto cualitativo hacia una personalización profunda, donde la geometría final de la prótesis es el resultado de un proceso inteligente y optimizado desde la primera imagen hasta la última capa de material.
+En cuanto al diseño, las prótesis integran superficies más transpirables, materiales hipoalergénicos 
+y sistemas de adhesión mejorados que favorecen su fijación directa a la piel, reduciendo la dependencia 
+de prendas especializadas \cite{WHO2021}. También se han desarrollado prótesis parciales y modulares que 
+permiten ajustes progresivos según las necesidades de cada paciente. El estado del arte también destaca 
+un cambio en el enfoque clínico: ya no se prioriza únicamente la estética, sino un abordaje integral 
+centrado en la calidad de vida \cite{casanovasprograma}. Esto incluye la evaluación del impacto en la postura, 
+ el equilibrio corporal y la prevención de dolor, así como el acompañamiento en procesos de adaptación física 
+ y emocional tras una mastectomía \cite{McNeely2021,Hojan2016}. En conjunto, los avances recientes 
+ evidencian una transición hacia prótesis mamarias más funcionales, personalizadas y orientadas 
+ al bienestar integral, integrando principios biomecánicos y tecnológicos para mejorar la experiencia 
+ de uso y reducir las complicaciones asociadas.
 
+ En este contexto, se propone una metodología para el diseño y fabricación 
+ personalizada de prótesis mamarias externas mediante herramientas digitales, destacando el uso de modelado 3D
+  y manufactura aditiva como alternativas viables frente a métodos tradicionales \cite{montejo2020methodology}. 
+  De manera similar, se introduce un enfoque biomimético en el diseño de prótesis completas, enfatizando 
+  la importancia de replicar características anatómicas y funcionales para lograr una mejor integración 
+  estética y biomecánica \cite{cruz2018biomimetic}. Más recientemente, la manufactura aditiva ha cobrado 
+  relevancia como una tecnología clave en este campo, por ejemplo exploran el proceso completo de diseño, 
+  fabricación y caracterización mecánica de prótesis mamarias externas, evidenciando la importancia de 
+  evaluar las propiedades físicas de los materiales para garantizar su desempeño \cite{cansing2024additiv}.
+   En la misma línea, también investigan el desarrollo de materiales arquitectónicos avanzados, orientados 
+   a mejorar la funcionalidad y adaptabilidad de las prótesis \cite{zhang2025development}.
+Por otro lado, se han propuesto soluciones enfocadas en la accesibilidad y reducción de costos, desarrollando
+ un método ergonómico para la fabricación de prótesis personalizadas utilizando tecnologías de bajo costo \cite{regina2024method}.
+Mientras que en un estudio piloto sobre prótesis de silicona personalizadas producidas mediante manufactura aditiva,
+ demostrando su viabilidad clínica y su impacto positivo en las usuarias \cite{leme2023development}.
+
+
+En este contexto de creciente personalización, la perfilometría óptica tridimensional se ha 
+consolidado como la tecnología de referencia para la captura de la morfología torácica [citas].
+ Estos sistemas obtiene nubes de puntos alta resolución que reproducen fielmente la topografía de 
+ la pared costal y el contorno de la mama contralateral sana, sirviendo como modelo base para el diseño. 
+ Sin embargo, el estado del arte revela que el verdadero potencial de estas tecnologías comienza a 
+ desbloquearse con la incorporación de la IA. Durante la fase de captura, proponemos algoritmos 
+ de IA para aumentar la precisión y reducción de ruido en la estimación de la fase, filtrado de 
+ interferograma y calibración. Así mismo corregir automáticamente artefactos generados por el 
+ movimiento o la respiración, segmentar de manera autónoma el área torácica de interés y, crucialmente, 
+ reconstruir superficies incompletas mediante técnicas de aprendizaje profundo que predicen la morfología 
+ esperada de la región afectada por la mastectomía, tomando como referencia la topografía de la zona 
+ contralateral sana. Esta capacidad de "completitud inteligente" de los datos de entrada garantiza 
+ que el diseño parta de una base geométrica mucho más precisa y fiable, reduciendo la subjetividad en 
+ la fase de modelado manual. Paralelamente, en la fabricación de la prótesis, la IA también está 
+ irrumpiendo en la optimización de la impresión 3D. Mediante el uso de algoritmos de optimización 
+ topológica y aprendizaje por refuerzo, es posible calcular automáticamente estructuras internas (infill) 
+ que maximizan la ligereza y la transpirabilidad sin comprometer la resistencia mecánica, atendiendo 
+ directamente a la necesidad de reducir la sobrecarga postural . Además, la IA puede predecir y 
+ compensar deformaciones térmicas durante la impresión, ajustando parámetros en tiempo real para 
+ garantizar que la prótesis final se corresponda exactamente con el diseño digital. De este modo, 
+ la integración de la inteligencia artificial en los procesos de captura e impresión 3D no solo 
+ automatiza tareas, sino que introduce un salto cualitativo hacia una personalización profunda, 
+ donde la geometría final de la prótesis es el resultado de un proceso inteligente y optimizado 
+ desde la primera imagen hasta la última capa de material.
+A pesar de estos avances, persisten limitaciones importantes. La mayoría de los enfoques actuales 
+dependen de procesos semimanuales, carecen de integración completa de sistemas inteligentes 
+y presentan restricciones en la automatización del diseño personalizado. En este sentido, 
+la incorporación de inteligencia artificial en todas las etapas del 
+proceso —desde la captura hasta la evaluación— representa una oportunidad 
+para generar soluciones más robustas, precisas y accesibles, constituyendo así una 
+línea de investigación de frontera en el desarrollo de prótesis mamarias externas personalizadas.
 
 \subsection{Pertinencia}
-La construcción de prótesis mamarias externas personalizadas es un área de investigación de frontera que tiene un impacto social significativo. La falta de este servicion en algunas regiones del país comprueban la necesidad de neuvas tecnologías. Por otro lado, esta área puede ser potenciada con la incorporación de inteligencia artificial, lo que representa una oportunidad para el desarrollo científico y tecnológico en México. Nuevas metodologías basadas en ciencia de frontera son necesarias para optimizar y obtner protesis de mama con alta tecnología. 
+La construcción de prótesis mamarias externas personalizadas es un área de investigación de 
+frontera que tiene un impacto social significativo. La falta de este servicio en en algunas 
+regiones del país comprueban la necesidad de neuvas tecnologías. Por otro lado, esta área puede 
+ser potenciada con la incorporación de inteligencia artificial, lo que representa una oportunidad 
+para el desarrollo científico y tecnológico en México. Nuevas metodologías basadas en ciencia de frontera 
+son necesarias para optimizar y obtner protesis de mama con alta tecnología. 
 
 
 \subsection{Hipótesis o preguntas de investigación}
@@ -149,8 +232,16 @@ Modelos matemáticos asistidos por inteligencia artificial para la construcción
 
 \subsection{Objetivos específicos}
 \begin{enumerate}
-    \item Objetivo específico 1
-    \item Objetivo específico 2
+    \item Desarrollar un sistema de captura tridimensional basado en perfilometría óptica de alta precisión para obtener información detallada de la mama contralateral y del tronco superior.
+    \item Diseñar e implementar algoritmos asistidos por inteligencia artificial para la reconstrucción 3D, incluyendo detección de fase, filtrado y procesos de calibración robustos.
+\item Analizar las relaciones antropométricas entre los senos y las proporciones corporales superiores, con el fin de establecer modelos que permitan la personalización de prótesis.
+\item Desarrollar modelos basados en redes neuronales y transporte óptimo que permitan generar diseños de prótesis personalizados a partir de datos antropométricos.
+\item Investigar y caracterizar materiales y biomateriales adecuados (como hidrogeles), evaluando su biocompatibilidad, propiedades mecánicas y durabilidad.
+\item Diseñar y optimizar procesos de fabricación mediante impresión 3D, tanto directa como en molde, para la producción eficiente de prótesis personalizadas.
+\item Integrar criterios de estética, biomecánica y análisis postural en el diseño de prótesis y sistemas de soporte (como sujetadores).
+\item Evaluar el desempeño de las prótesis mediante un estudio longitudinal, considerando comodidad, ajuste, impacto postural y percepción estética.
+\item Desarrollar un sistema integral que combine captura, procesamiento con IA, diseño y fabricación, con enfoque en accesibilidad y replicabilidad.
+\item Generar productos científicos y tecnológicos (publicaciones, software, metodologías) que contribuyan al avance del área y faciliten su transferencia tecnológica.
 \end{enumerate}
 
 \subsection{Metas}
