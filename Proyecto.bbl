@@ -1,285 +1,47 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{1}
 
+\bibitem{ACS2023}
+{American Cancer Society}.
+\newblock Breast prostheses after mastectomy, 2023.
 
-\refsection{0}
-  \datalist[entry]{apa/global//global/global}
-    \entry{ACS2023}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b5e1ba0fe6d6b02008d2d6f9d921da55}{%
-           family={{American Cancer Society}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {American Cancer Society}%
-      }
-      \strng{namehash}{b5e1ba0fe6d6b02008d2d6f9d921da55}
-      \strng{fullhash}{b5e1ba0fe6d6b02008d2d6f9d921da55}
-      \strng{bibnamehash}{b5e1ba0fe6d6b02008d2d6f9d921da55}
-      \strng{authorbibnamehash}{b5e1ba0fe6d6b02008d2d6f9d921da55}
-      \strng{authornamehash}{b5e1ba0fe6d6b02008d2d6f9d921da55}
-      \strng{authorfullhash}{b5e1ba0fe6d6b02008d2d6f9d921da55}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Breast Prostheses After Mastectomy}
-      \field{year}{2023}
-    \endentry
-    \entry{Hojan2016}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1a201c9e06c5fb677ab7373f79849fec}{%
-           family={Hojan},
-           familyi={H\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb1882e4d78dcebbb077d50b7d3d81df}{%
-           family={Manikowska},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=19fa8428534f6b9d64a51ba6a8f88abb}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={B.\bibnamedelimi P.\bibnamedelimi J.},
-           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=31a47ac3335a7a1518b9ccc53d61cb56}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={C.\bibnamedelimi C.},
-           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{21766ad415bcf919b09c3f215cb5e492}
-      \strng{fullhash}{b06bf88d66d6f9fa748686464fb378a5}
-      \strng{bibnamehash}{b06bf88d66d6f9fa748686464fb378a5}
-      \strng{authorbibnamehash}{b06bf88d66d6f9fa748686464fb378a5}
-      \strng{authornamehash}{21766ad415bcf919b09c3f215cb5e492}
-      \strng{authorfullhash}{b06bf88d66d6f9fa748686464fb378a5}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Back and Musculoskeletal Rehabilitation}
-      \field{number}{2}
-      \field{title}{The influence of an external breast prosthesis on the posture of women after mastectomy}
-      \field{volume}{29}
-      \field{year}{2016}
-      \field{pages}{337\bibrangedash 342}
-      \range{pages}{6}
-    \endentry
-    \entry{Jetha2017}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=6e9cc306730f8cf8a06b52b5fbf0660e}{%
-           family={Jetha},
-           familyi={J\bibinitperiod},
-           given={Z.\bibnamedelimi A.},
-           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d76ba2912f177bc17a81744f082038ac}{%
-           family={Gul},
-           familyi={G\bibinitperiod},
-           given={R.\bibnamedelimi B.},
-           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c94ee6e49f275e79c3263d29762d72e}{%
-           family={Lalani},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{755eb185b7f83cba0c53f2ab665c0b64}
-      \strng{fullhash}{493b3666c776f02590c0c0a82033ccf7}
-      \strng{bibnamehash}{493b3666c776f02590c0c0a82033ccf7}
-      \strng{authorbibnamehash}{493b3666c776f02590c0c0a82033ccf7}
-      \strng{authornamehash}{755eb185b7f83cba0c53f2ab665c0b64}
-      \strng{authorfullhash}{493b3666c776f02590c0c0a82033ccf7}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Asia-Pacific Journal of Oncology Nursing}
-      \field{number}{3}
-      \field{title}{Women experiences of using external breast prosthesis after mastectomy}
-      \field{volume}{4}
-      \field{year}{2017}
-      \field{pages}{250\bibrangedash 258}
-      \range{pages}{9}
-    \endentry
-    \entry{Leung2017}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7eee0070cececce6e121e76e63602142}{%
-           family={Leung},
-           familyi={L\bibinitperiod},
-           given={T.\bibnamedelimi F.},
-           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7eee0070cececce6e121e76e63602142}
-      \strng{fullhash}{7eee0070cececce6e121e76e63602142}
-      \strng{bibnamehash}{7eee0070cececce6e121e76e63602142}
-      \strng{authorbibnamehash}{7eee0070cececce6e121e76e63602142}
-      \strng{authornamehash}{7eee0070cececce6e121e76e63602142}
-      \strng{authorfullhash}{7eee0070cececce6e121e76e63602142}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mastectomy bra and prosthesis design innovation for Hong Kong mastectomy patients}
-      \field{year}{2017}
-    \endentry
-    \entry{McNeely2021}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a353212ed71ecd3d16aaf60a1b699b30}{%
-           family={McNeely},
-           familyi={M\bibinitperiod},
-           given={M.\bibnamedelimi L.},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3db4bd187b5f13867bb5ce1fbb895e8b}
-      \strng{fullhash}{3db4bd187b5f13867bb5ce1fbb895e8b}
-      \strng{bibnamehash}{3db4bd187b5f13867bb5ce1fbb895e8b}
-      \strng{authorbibnamehash}{3db4bd187b5f13867bb5ce1fbb895e8b}
-      \strng{authornamehash}{3db4bd187b5f13867bb5ce1fbb895e8b}
-      \strng{authorfullhash}{3db4bd187b5f13867bb5ce1fbb895e8b}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{CA: A Cancer Journal for Clinicians}
-      \field{number}{3}
-      \field{title}{Rehabilitation interventions for upper limb dysfunction and postural control after breast cancer treatment}
-      \field{volume}{71}
-      \field{year}{2021}
-      \field{pages}{239\bibrangedash 264}
-      \range{pages}{26}
-    \endentry
-    \entry{Singh2020}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=804237a4343b0803e007d06a54a6fa3e}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e160ff6aa4038b5d18ec033ff58b033f}
-      \strng{fullhash}{e160ff6aa4038b5d18ec033ff58b033f}
-      \strng{bibnamehash}{e160ff6aa4038b5d18ec033ff58b033f}
-      \strng{authorbibnamehash}{e160ff6aa4038b5d18ec033ff58b033f}
-      \strng{authornamehash}{e160ff6aa4038b5d18ec033ff58b033f}
-      \strng{authorfullhash}{e160ff6aa4038b5d18ec033ff58b033f}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{3D Printing in Medicine}
-      \field{number}{1}
-      \field{title}{Custom 3D printed breast prostheses: A new approach}
-      \field{volume}{6}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
-    \endentry
-    \entry{Tan2023}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=918c654796b3a4456d47947700429297}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={E.\bibnamedelimi T.},
-           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{687605b445a05a5fd9c7e43762c2452c}
-      \strng{fullhash}{687605b445a05a5fd9c7e43762c2452c}
-      \strng{bibnamehash}{687605b445a05a5fd9c7e43762c2452c}
-      \strng{authorbibnamehash}{687605b445a05a5fd9c7e43762c2452c}
-      \strng{authornamehash}{687605b445a05a5fd9c7e43762c2452c}
-      \strng{authorfullhash}{687605b445a05a5fd9c7e43762c2452c}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Engineering \& Physics}
-      \field{title}{Advances in personalized breast prosthetics using 3D scanning and printing}
-      \field{volume}{110}
-      \field{year}{2023}
-      \field{pages}{103\bibrangedash 112}
-      \range{pages}{10}
-    \endentry
-    \entry{WHO2021}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
-           family={{World Health Organization}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {World Health Organization}%
-      }
-      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Rehabilitation in Health Systems}
-      \field{year}{2021}
-    \endentry
-  \enddatalist
-\endrefsection
-\endinput
+\bibitem{Hojan2016}
+K.~Hojan, F.~Manikowska, B.~P.~J. Chen, and C.~C. Lin.
+\newblock The influence of an external breast prosthesis on the posture of
+  women after mastectomy.
+\newblock {\em Journal of Back and Musculoskeletal Rehabilitation},
+  29(2):337--342, 2016.
 
+\bibitem{Koralewska2022}
+A.~Koralewska, M.~Domagalska-Szopa, R.~Łukowski, and A.~Szopa.
+\newblock Influence of the external breast prosthesis on the postural control
+  of women who underwent mastectomy: Cross-sectional study.
+\newblock {\em Frontiers in Oncology}, 12:920211, 2022.
+
+\bibitem{Liang2015}
+Y.~N. Liang and B.~Xu.
+\newblock Factors influencing utilization and satisfaction with external breast
+  prosthesis in patients with mastectomy: A systematic review.
+\newblock {\em International Journal of Nursing Sciences}, 2(2):218--224, 2015.
+
+\bibitem{McNeely2021}
+M.~L. McNeely et~al.
+\newblock Rehabilitation interventions for upper limb dysfunction and postural
+  control after breast cancer treatment.
+\newblock {\em CA: A Cancer Journal for Clinicians}, 71(3):239--264, 2021.
+
+\bibitem{Singh2020}
+M.~Singh et~al.
+\newblock Custom 3d printed breast prostheses: A new approach.
+\newblock {\em 3D Printing in Medicine}, 6(1):1--10, 2020.
+
+\bibitem{Tan2023}
+E.~T. Tan et~al.
+\newblock Advances in personalized breast prosthetics using 3d scanning and
+  printing.
+\newblock {\em Medical Engineering \& Physics}, 110:103--112, 2023.
+
+\bibitem{WHO2021}
+{World Health Organization}.
+\newblock Rehabilitation in health systems, 2021.
+
+\end{thebibliography}
