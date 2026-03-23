@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Proyecto.aux
+The style file: ieeetr.bst
+Database file #1: referencias.bib
+Warning--entry type for "ACS2023" isn't style-file defined
+--line 1 of file referencias.bib
+Warning--entry type for "WHO2021" isn't style-file defined
+--line 8 of file referencias.bib
+Warning--empty journal in casanovasprograma
+Warning--empty year in casanovasprograma
+You've used 21 entries,
+            1876 wiz_defined-function locations,
+            618 strings with 9046 characters,
+and the built_in function-call counts, 6471 in all, are:
+= -- 640
+> -- 279
+< -- 0
++ -- 102
+- -- 81
+* -- 463
+:= -- 893
+add.period$ -- 20
+call.type$ -- 21
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 339
+empty$ -- 565
+format.name$ -- 81
+if$ -- 1582
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 18
+newline$ -- 66
+num.names$ -- 20
+pop$ -- 64
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 273
+stack$ -- 0
+substring$ -- 434
+swap$ -- 171
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 61
+width$ -- 23
+write$ -- 208
+(There were 4 warnings)
