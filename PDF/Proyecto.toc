@@ -25,8 +25,8 @@
 \contentsline {subsection}{\numberline {3.3}Formación de capacidades}{17}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Presupuesto detallado}{17}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Desglose}{17}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Justificación}{18}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Propuesta de evaluadores}{18}{section.5}%
-\contentsline {section}{\numberline {6}Carta Oficial de Postulación}{18}{section.6}%
-\contentsline {section}{\numberline {7}Documentos Anexos}{18}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Protocolo de investigación}{18}{subsection.7.1}%
+\contentsline {subsection}{\numberline {4.2}Justificación}{19}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Propuesta de evaluadores}{21}{section.5}%
+\contentsline {section}{\numberline {6}Carta Oficial de Postulación}{21}{section.6}%
+\contentsline {section}{\numberline {7}Documentos Anexos}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Protocolo de investigación}{21}{subsection.7.1}%
